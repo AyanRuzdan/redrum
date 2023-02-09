@@ -23,7 +23,7 @@ Move files from one directory to another|`mv`
 
 ## Lab Exercises
 
-1. Explore the file system of a Windows system and a Linux system, and write prime differences.
+### 1. Explore the file system of a Windows system and a Linux system, and write prime differences
 
 > Ans.
 > **File System in Linux**
@@ -51,9 +51,10 @@ Move files from one directory to another|`mv`
 > 2. **Cluster**: One or more contiguous sectors.
 > 3. **Volume**: A logical partition on a disk, consisting of one or more clusters and used by a file system to allocate space.
 
-2. Create a file in your Linux system, in your current user's home directory, named as `file1.txt`. Write your name and registration number in the `file1.txt` using `cat` command. Now rename the file using mv command, the new name must be `yourRegistrationNumber.txt`.
+### 2. Create a file in your Linux system, in your current user's home directory, named as `file1.txt`. Write your name and registration number in the `file1.txt` using `cat` command. Now rename the file using mv command, the new name must be `yourRegistrationNumber.txt`
 
 Ans.
+
 ```bash
 ruzdan@Ubuntu:~$ touch file1.txt
 ruzdan@Ubuntu:~$ ls
@@ -71,4 +72,55 @@ ruzdan@Ubuntu:~$ ls
 12116032.txt  Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
 ruzdan@Ubuntu:~$ cat 12116032.txt 
 Ayan Ruzdan
-12116032```
+12116032
+```
+
+### 3. Create a copy of the file you have created with your registration number. Now delete the original file.
+
+Ans.
+
+```bash
+ruzdan@Ubuntu:~$ ls
+12116032.txt  Documents  Music     Public  Templates
+Desktop       Downloads  Pictures  snap    Videos
+ruzdan@Ubuntu:~$ cp 12116032.txt 12116032_copy.txt 
+ruzdan@Ubuntu:~$ ls
+12116032_copy.txt  Desktop    Downloads  Pictures  snap       Videos
+12116032.txt       Documents  Music      Public    Templates
+ruzdan@Ubuntu:~$ rm 12116032.txt
+ruzdan@Ubuntu:~$ ls
+12116032_copy.txt  Documents  Music     Public  Templates
+Desktop            Downloads  Pictures  snap    Videos
+ruzdan@Ubuntu:~$ cat 12116032_copy.txt 
+Ayan Ruzdan
+12116032
+```
+
+### 4. Create a directory with your name and move all the files (using mv command) created by you in currently logged in user's home directory.
+
+Ans.
+
+```bash
+ruzdan@Ubuntu:~$ mkdir Ayan
+ruzdan@Ubuntu:~$ ls
+12116032_copy.txt  Desktop    Downloads  Pictures  snap       Videos
+Ayan               Documents  Music      Public    Templates
+ruzdan@Ubuntu:~$ mv 12116032_copy.txt Ayan
+ruzdan@Ubuntu:~$ ls
+Ayan     Documents  Music     Public  Templates
+Desktop  Downloads  Pictures  snap    Videos
+ruzdan@Ubuntu:~$ cd Ayan/
+ruzdan@Ubuntu:~/Ayan$ ls
+12116032_copy.txt
+```
+
+### 5. Create multiple directories using single command. (Directories name can be your friends' names)
+
+Ans.
+
+```bash
+ruzdan@Ubuntu:~$ mkdir Harsh Aayush Shubham
+ruzdan@Ubuntu:~$ ls
+Aayush  Desktop    Downloads  Music     Public   snap       Videos
+Ayan    Documents  Harsh      Pictures  Shubham  Templates
+```
