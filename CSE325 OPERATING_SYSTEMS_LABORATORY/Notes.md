@@ -50,3 +50,25 @@ Move files from one directory to another|`mv`
 > 1. **Sector**: The smallest physical storage unit on the disk.
 > 2. **Cluster**: One or more contiguous sectors.
 > 3. **Volume**: A logical partition on a disk, consisting of one or more clusters and used by a file system to allocate space.
+
+2. Create a file in your Linux system, in your current user's home directory, named as `file1.txt`. Write your name and registration number in the `file1.txt` using `cat` command. Now rename the file using mv command, the new name must be `yourRegistrationNumber.txt`.
+
+Ans.
+```bash
+ruzdan@Ubuntu:~$ touch file1.txt
+ruzdan@Ubuntu:~$ ls
+Desktop  Documents  Downloads  file1.txt  Music  Pictures  Public  snap  Templates  Videos
+ruzdan@Ubuntu:~$ cat > file1.txt 
+Ayan Ruzdan
+12116032
+ruzdan@Ubuntu:~$ ls
+Desktop  Documents  Downloads  file1.txt  Music  Pictures  Public  snap  Templates  Videos
+ruzdan@Ubuntu:~$ cat file1.txt 
+Ayan Ruzdan
+12116032
+ruzdan@Ubuntu:~$ mv file1.txt 12116032.txt
+ruzdan@Ubuntu:~$ ls
+12116032.txt  Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+ruzdan@Ubuntu:~$ cat 12116032.txt 
+Ayan Ruzdan
+12116032```
