@@ -75,7 +75,7 @@ Ayan Ruzdan
 12116032
 ```
 
-### 3. Create a copy of the file you have created with your registration number. Now delete the original file.
+### 3. Create a copy of the file you have created with your registration number. Now delete the original file
 
 Ans.
 
@@ -96,7 +96,7 @@ Ayan Ruzdan
 12116032
 ```
 
-### 4. Create a directory with your name and move all the files (using mv command) created by you in currently logged in user's home directory.
+### 4. Create a directory with your name and move all the files (using mv command) created by you in currently logged in user's home directory
 
 Ans.
 
@@ -124,3 +124,48 @@ ruzdan@Ubuntu:~$ ls
 Aayush  Desktop    Downloads  Music     Public   snap       Videos
 Ayan    Documents  Harsh      Pictures  Shubham  Templates
 ```
+
+# Experiment 2 : Shell Programming
+
+## Aim
+
+The aim of this laboratory is to introduce the shell script that offers the students with an interface to include a sequence of commands need to employ frequently for saving time.
+
+## Description
+
+A shell program, frequently called a shell script, is basically a program composed of shell commands. Each command within the script is executed by the shell in sequence. Shell script files are created with editors such as vi and stored with the `.sh` extension. Set execute permission for shell script file using **`chmod`** command and execute with the **`sh`** or **`bash`** command in the terminal.
+
+## Shell Variables
+
+User can include user-defined variables in a shell script program using the following format `var_name = string`, for example `day = "Sunday"`. In the given example, the variable `day` is assigned with the value `"Sunday"`.
+
+## Standard Input Redirection
+
+Mostly shell commands take input values from the standard input (keyboard). The input to these commands can also be redirected from the files using the symbol `<`. For example `$wc` command accepts the input from the standard input and displays the number of lines, words and characters.  
+Example: `$wc < test.txt`  
+Here the input to the `wc` command is redirected from the file "test.txt"
+
+## Standard Output Redirection
+
+The shell command outputs basically directed to standard output. These outputs can also be redirected to files using the symbol `<`.  
+For example `ls` command displays the directory content on the standard output device.  
+Example: `$ls > test.txt`  
+Here the output of the ls command is redirected to the file with the name "test.txt"  
+
+## Shell Arithmetic
+
+The shell enables the arithmetic expressions to be evaluated using the commands `let` or `expr`.  
+Example: Perform the sum of two numbers
+
+```bash
+x = 2
+y = 3
+let "a = $x + $y"
+b = 'expr $x + $y'
+echo "Sum is $a"
+echo "Sum is $b"
+```
+
+## Flow Control
+
+The shell supports various commands to control 
