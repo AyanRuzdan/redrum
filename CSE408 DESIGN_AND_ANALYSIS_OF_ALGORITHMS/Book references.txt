@@ -1,0 +1,21 @@
+『Introduction to The Design and Analysis of Algorithms』
+<=======================================================>
+	                    『Unit II』
+<==================================================================>
+Sequential Search and Brute-Force String Matching Pg 104-106 Sec 3.2 
+Closest-Pair and Convex-Hull Problems by Brute Force Pg 108-113 Sec 3.3 
+Exhaustive Search Pg 115-120 Sec 3.4 
+<==============================>
+	          『Unit III』
+<==============================================>
+Selection Sort and Bubble Sort Pg 98-100 Sec 3.1
+Depth-First Search and Breadth-First Search Pg 122-128 Sec 3.5
+Decrease-and-Conquer Pg 131-134
+Insertion Sort Pg 134-136 Sec 4.1
+Topological Sort Pg 138-141 Sec 4.2
+Binary Search (Decrease-by-a-Constant-Factor Algorithms) Pg 150-152 Sec 4.4
+Divide-and-Conquer Pg 169 Unit 5
+Merge Sort Pg 172-173 Sec 5.1
+Quick Sort Pg 176 Sec 5.2
+Multiplication of Large Integers and Strassen's Matrix Multiplication Pg 186 Sec 5.4
+The Closest-Pair and Convex-Hull Problems by Divide-and-Conquer Pg 192 Sec 5.5
