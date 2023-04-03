@@ -5,7 +5,7 @@ All the letters of an identifier in Java should be in lower case, except:
 
 # Identifier
 A name in a program is called an identifier. They can be used to denote classes, methods, variables and labels. An identifier may be a descriptive sequence of uppercase and lowercase letters, number, or the underscore and dollar-sign characters. Like `number, Number, sum_$`.
-> **Note: ** Identifier must not begin with a number.
+> **Note:** Identifier must not begin with a number.
 
 # Keyword
 Keywords are reserved identifiers that are predefined in the language. Cannot be used as names for a variable, class or method. All the keywords are in lowercase. There are 50 keywords currently defined in the Java language. The keywords `const` and `goto` are reserved but not used.  `true`, `false` and `null` are also reserved.
