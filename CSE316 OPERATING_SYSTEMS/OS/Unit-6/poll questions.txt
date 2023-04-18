@@ -1,0 +1,91 @@
+https://youtu.be/n6uPALWAyxc
+
+https://youtu.be/kdmLvl1n82U
+
+https://www.youtube.com/watch?v=GAIRNrT7qRA
+
+
+
+Tracks in the disk are divided into ______
+
+platters
+
+cylinders
+
+sectors 
+
+None of the above
+
+
+Which of the following improves the  hardware efficiently  for the disk drives
+
+Minimize seek time
+
+Maximize the seek time 
+
+None of the above
+
+
+
+
+
+______refers to a mechanism for controlling the access of the programs, processes or users to the resources defined by the computer system.
+
+paging
+
+segmentation
+
+protection
+
+all of the above
+
+
+Unauthorized  modification of data can be considered as _____
+
+Breach of Confidentiality
+
+Breach of integrity
+
+Breach of availability
+
+all of the above
+
+
+
+
+
+
+
+
+
+
+
+Which of the following algorithm Replace page that will not be used for longest period of time?
+
+FIFO
+
+Optimal
+
+LRU
+
+All of the above
+
+
+Which of the following is an Inter-process communication technique?
+
+1. Shared memory 
+2. Message Passing / Message Queue
+3. Sockets
+4. Pipes 
+5. All of the above
+
+
+Which of the following IPC provides Communication in Client-Server Systems
+
+1. Shared memory 
+2. Message Passing / Message Queue
+3. Sockets
+4. All of the above
+
+
+

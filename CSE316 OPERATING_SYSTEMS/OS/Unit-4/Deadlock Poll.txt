@@ -1,0 +1,32 @@
+_______algorithm is used for Dead Avoidance?
+
+Peterson
+
+Rabinson
+
+Bankers
+
+All of the above
+
+
+
+_______scheme is used for Dead Detection?
+
+Resource-Allocation Graph
+
+Wait-for Graph
+
+Stand-for-Graph
+
+Resource-Collection Graph
+
+
+_______  conditions must hold in the system for a deadlock to occur
+
+Mutual exclusion
+
+Hold and wait
+
+No preemption
+
+Circular wait

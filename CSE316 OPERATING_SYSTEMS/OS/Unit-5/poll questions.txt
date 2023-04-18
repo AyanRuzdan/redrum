@@ -1,0 +1,37 @@
+Which of the following algorithm Replace page that will not be used for longest period of time?
+
+FIFO
+
+Optimal
+
+LRU
+
+All of the above
+
+Which of the following counting algorithm replaces page with smallest count?
+
+LFU
+
+MFU
+
+Both LFU & MFU
+
+
+Which of the following is an Inter-process communication technique?
+
+1. Shared memory 
+2. Message Passing / Message Queue
+3. Sockets
+4. Pipes 
+5. All of the above
+
+
+Which of the following IPC provides Communication in Client-Server Systems
+
+1. Shared memory 
+2. Message Passing / Message Queue
+3. Sockets
+4. All of the above
+
+
+

@@ -1,0 +1,75 @@
+https://youtu.be/G6m0QkTU-ck
+
+
+Address binding of instructions and data to memory addresses can happen at ______ time
+
+Compile time
+
+Load time
+
+Execution time
+
+All of the above
+
+
+Logical address is also called as ________
+
+physical address
+
+virtual address
+
+
+manual address
+
+
+local address
+
+
+_______ technique is used to reduce the External Fragmentation
+
+Detecion
+
+Conversion
+
+Compaction
+
+Collection
+
+
+The two memory access problem can be solved by __________
+
+Special fast-lookup hardware cache called 
+
+Associative memory 
+
+Translation Look-aside Buffers (TLBs)
+
+Which of the following page table structure is used if address space contain more than 32 bits
+
+Hierarchical Paging
+
+Hashed Page Tables
+
+
+Which of the following page table structure is used for logical address more than 32 bits
+
+
+Hierarchical Paging
+
+Hashed Page Tables
+
+Inverted Page Tables
+
+all of the above
+
+
+
+In segmentation technique, the logical address contains ______
+
+Page-number, offset
+
+segment-number, offset
+
+segment-number, Page-number
+
+

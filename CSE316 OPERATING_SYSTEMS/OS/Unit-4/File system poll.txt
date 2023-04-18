@@ -1,0 +1,34 @@
+
+The directory can be viewed as a ..... that translates file names into their directory entries.
+
+symbol table
+
+partition
+
+swap space
+
+cache
+
+
+_______ directory scheme contains one directory and many files.
+
+Single Level Directory
+
+Two level directory
+
+Tree Structure
+
+None of the above
+
+
+Which directory implementation is used in most Operating System?
+
+a.	
+Single level directory structure
+b.	
+Two level directory structure
+c.	
+Tree directory structure
+d.	
+Acyclic directory structure
+
